@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    border: 0;
+    border: none;
+}
+
+body {
+    font-family: "Segoe UI", Roboto;
+}
+/* heading and menu */
+
+#logo {
+    float: left;
+    margin-left: 40px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 15px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: grey;
+}
