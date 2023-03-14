@@ -95,7 +95,8 @@ a.nav-link.btn-regular:hover {
 }
 
 .img-savings {
-    width: 55%;
+    width: auto;
+    height: 662px;
 }
 
 .column-left {
