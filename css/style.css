@@ -74,8 +74,6 @@ a.nav-link.btn-regular:hover {
 #home-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-
     position: relative;
 }
 
@@ -84,9 +82,27 @@ a.nav-link.btn-regular:hover {
     color: #fff;
 }
 
-#home-image {
-    height: 150px;
-    width: 100%;
+#home-outer {
+    height: 688px;
     background-color: #ffc107;
-    /* ADD BACKGROUND AND WOMAN*/
+}
+
+#home-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-savings {
+    width: 55%;
+}
+
+.column-left {
+    flex-basis: 40%;
+    padding-right: 20px;
+}
+
+.column-right {
+    flex-basis: 60%;
 }
