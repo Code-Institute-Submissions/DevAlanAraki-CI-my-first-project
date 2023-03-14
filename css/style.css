@@ -33,3 +33,31 @@ body {
     text-decoration: none;
     color: grey;
 }
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* home */
+
+#home-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+#home-cover-text, #home-cover-text h2 {
+    color: #fff;
+}
+
+#home-image {
+    height: 150px;
+    width: 100%;
+ /* ADD BACKGROUND AND WOMAN*/
+}
