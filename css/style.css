@@ -69,12 +69,19 @@ a.nav-link.btn-regular:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#nav-access,
+#home-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
 /* home */
 
 #home-outer {
     height: 600px;
     width: 100%;
     position: relative;
+    color: #fff;
 }
 
 #home-cover-text,
@@ -88,15 +95,17 @@ a.nav-link.btn-regular:hover {
 }
 
 #home-container {
-    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .img-savings {
     width: auto;
     height: 662px;
+    float: right;
+    margin: 0rem 10rem 0rem 0rem;
 }
 
 .column-left {
@@ -106,4 +115,71 @@ a.nav-link.btn-regular:hover {
 
 .column-right {
     flex-basis: 60%;
+}
+
+.home-quote {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 120px;
+    margin-bottom: .5rem;
+}
+
+#home-quote,
+#home-outer p {
+    margin-left: 120px;
+}
+
+.form-subscribe {
+    margin-bottom: 1.4rem;
+    margin-top: 1.5rem;
+    margin-left: 120px;
+}
+
+.input-both {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-control {
+    display: block;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input-both>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-both-legacy .form-control {
+    height: calc(1.5em + .3rem);
+}
+
+.input-both-legacy .form-control,
+.btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.76;
+    border-radius: .3rem;
+}
+
+.input-both .form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
 }

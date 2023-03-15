@@ -14,43 +14,55 @@
 
 <body>
     <header class="header-bgcolor">
-        <nav>
-            <div>
-                <a href="index.html">
-                    <img src="images/finantechwhite.png" id="logo" alt="Logo FinanTech" width="150">
-                </a>
+        <div id="nav-access">
+            <nav>
                 <div>
-                    <ul id="menu">
-                        <li>
-                            <a href="#" class="nav-link btn-regular active">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link btn-regular">About us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link btn-regular">Benefits</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link btn-regular">Prices</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link btn-regular">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-outline">Log in</a>
-                        </li>
-                        <!-- HOW CAN I ORGANIZE THE MENU WITHOUT CHANGING IN ROOT? PENDING -->
-                    </ul>
+                    <a href="index.html">
+                        <img src="images/finantechwhite.png" id="logo" alt="Logo FinanTech" width="150">
+                    </a>
+                    <div>
+                        <ul id="menu">
+                            <li>
+                                <a href="#" class="nav-link btn-regular active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link btn-regular">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link btn-regular">Benefits</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link btn-regular">Prices</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link btn-regular">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-outline">Log in</a>
+                            </li>
+                            <!-- HOW CAN I ORGANIZE THE MENU WITHOUT CHANGING IN ROOT? PENDING -->
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+
     </header>
 
     <section id="home-outer">
         <div id="home-container">
             <div class="column-left">
-                <h2>Your bills, not a nightmare</h2>
-                <p>Used by more than 1 million people, FinanTech is an online tool that will make your financial life easier.</p>
+                <h2 class="home-quote">Your bills, not a nightmare</h2>
+                <p>Used by more than 1 million people, FinanTech is an online tool that will make your financial life
+                    easier.</p>
+                <form class="form-subscribe">
+                    <div class="input-both input-both-legacy">
+                        <input type="text" placeholder="Digite seu e-mail" class="form-control">
+                        <div class="input-both-append">
+                            <button type="button" class="btn btn-primary">Cadastre-se</button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="column-right">
                 <img src="images/saving-funds.png" class="img-savings">
