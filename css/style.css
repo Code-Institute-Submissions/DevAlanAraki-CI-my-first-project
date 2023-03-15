@@ -4,6 +4,11 @@
     border: none;
 }
 
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
 body {
     font-family: "Segoe UI", Roboto;
     background-color: #fff;
@@ -120,7 +125,6 @@ a.nav-link.btn-regular:hover {
 .home-quote {
     font-size: 3.5rem;
     font-weight: 300;
-    line-height: 1.2;
     margin-left: 120px;
     margin-bottom: .5rem;
 }
