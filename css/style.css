@@ -9,8 +9,30 @@ html {
 }
 
 body {
-    font-family: "Segoe UI", Roboto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     background-color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    display: block;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 
 /* heading and menu */
@@ -79,7 +101,7 @@ a.nav-link.btn-regular:hover {
 }
 
 #nav-access,
-#home-container {
+.home-container {
     margin: 0 auto;
     width: 80%;
 }
@@ -99,7 +121,7 @@ a.nav-link.btn-regular:hover {
     color: #fff;
 }
 
-#home-container {
+.home-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,7 +129,7 @@ a.nav-link.btn-regular:hover {
 
 .img-savings {
     width: auto;
-    height: 514px;
+    height: 520px;
     float: right;
     margin: 0rem 10rem 0rem 0rem;
 }
@@ -137,6 +159,7 @@ a.nav-link.btn-regular:hover {
     margin-bottom: 1.4rem;
     margin-top: 1.5rem;
     margin-left: 120px;
+    width: 78%;
 }
 
 .input-both {
@@ -154,7 +177,6 @@ a.nav-link.btn-regular:hover {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .input-both>.form-control:not(:last-child) {
@@ -181,8 +203,39 @@ a.nav-link.btn-regular:hover {
     margin-bottom: 0;
 }
 
-.btn-primary {
+.btn-subscribe {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+    cursor: pointer;
+}
+
+/* BOX Sections */
+
+.box-space {
+    display: flex;
+}
+
+.box {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.line {
+    display: flex;
+    margin-left: 120px;
+}
+
+.column-half {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.img-graphic {
+    max-width: 100%;
+    height: auto;
+}
+
+.align-box-content-center {
+    align-self: center;
 }
