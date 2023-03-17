@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
     background-color: #fff;
 }
 
@@ -33,6 +33,8 @@ h2,
 h3 {
     margin-top: 0;
     margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 /* heading and menu */
@@ -214,6 +216,7 @@ a.nav-link.btn-regular:hover {
 
 .box-space {
     display: flex;
+    justify-content: center;
 }
 
 .box {
@@ -223,19 +226,28 @@ a.nav-link.btn-regular:hover {
 
 .line {
     display: flex;
-    margin-left: 120px;
-}
-
-.column-half {
-    flex: 0 0 50%;
-    max-width: 50%;
 }
 
 .img-graphic {
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
+    margin-left: 120px;
 }
 
-.align-box-content-center {
-    align-self: center;
+.box-content {
+    width: 500px;
+    margin-top: 20%;
+}
+
+.btn-more {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: 25px;
 }
