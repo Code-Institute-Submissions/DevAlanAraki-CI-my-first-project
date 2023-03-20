@@ -213,16 +213,15 @@ a.nav-link.btn-regular:hover {
 }
 
 /* BOX Sections */
+#box {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
 
 .box-space {
     display: flex;
     justify-content: space-evenly;
     margin: 0 150px;
-}
-
-.box {
-    padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-content {
@@ -238,8 +237,6 @@ a.nav-link.btn-regular:hover {
     max-width: 500px;
     height: auto;
 }
-
-
 
 .grapchic-section {
     position: relative;
