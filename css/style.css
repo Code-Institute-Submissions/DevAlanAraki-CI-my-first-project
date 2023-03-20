@@ -222,8 +222,11 @@ a.nav-link.btn-regular:hover {
 
 .box {
     padding: 60px 0;
-
     border-bottom: 1px solid #e5e5e5;
+}
+
+.box-content {
+    width: 500px;
 }
 
 .line {
@@ -236,9 +239,7 @@ a.nav-link.btn-regular:hover {
     height: auto;
 }
 
-.box-content {
-    width: 500px;
-}
+
 
 .grapchic-section {
     position: relative;
