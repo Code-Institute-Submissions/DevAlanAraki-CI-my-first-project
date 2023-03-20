@@ -275,7 +275,10 @@ a.nav-link.btn-regular:hover {
     width: 440px;
     text-align: center;
     margin: 20px;
+}
 
+.feature-col p {
+    width: 400px;
 }
 
 .img-support-feature {
