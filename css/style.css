@@ -47,7 +47,7 @@ h3 {
 
 #logo {
     float: left;
-    margin: 18px 40px 0 120px;
+    margin: 18px 40px 0 50px;
     width: 15%;
 }
 
@@ -148,19 +148,19 @@ a.nav-link.btn-regular:hover {
 .home-quote {
     font-size: 3.5rem;
     font-weight: 300;
-    margin-left: 120px;
+    margin-left: 50px;
     margin-bottom: .5rem;
 }
 
 #home-quote,
 #home-outer p {
-    margin-left: 120px;
+    margin-left: 50px;
 }
 
 .form-subscribe {
     margin-bottom: 1.4rem;
     margin-top: 1.5rem;
-    margin-left: 120px;
+    margin-left: 50px;
     width: 78%;
 }
 
@@ -216,27 +216,38 @@ a.nav-link.btn-regular:hover {
 
 .box-space {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 150px;
 }
 
 .box {
     padding: 60px 0;
+
     border-bottom: 1px solid #e5e5e5;
 }
 
 .line {
     display: flex;
+    justify-content: center;
 }
 
 .img-graphic {
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
-    margin-left: 120px;
 }
 
 .box-content {
     width: 500px;
-    padding: 18% 5%;
+}
+
+.grapchic-section {
+    position: relative;
+    top: 14%;
+}
+
+.card-section {
+    position: relative;
+    top: 38%;
 }
 
 .btn-more {
@@ -250,4 +261,24 @@ a.nav-link.btn-regular:hover {
     border-radius: .3rem;
     display: inline-block;
     margin-top: 25px;
+}
+
+.img-card {
+    max-width: 600px;
+    height: auto;
+}
+
+/* SECTION SUPPORT FEATURE */
+
+.feature-col {
+    max-width: 33.333333%;
+    width: 440px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.img-support-feature {
+    max-width: 370px;
+    height: auto;
 }
