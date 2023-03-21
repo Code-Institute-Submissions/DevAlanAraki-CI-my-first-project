@@ -283,3 +283,21 @@ a.nav-link.btn-regular:hover {
     max-width: 370px;
     height: auto;
 }
+
+/* FOOTER */
+
+footer p a {
+    margin: 5px 15px;
+}
+
+.footer-links {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-evenly;
+}
+
+.footer-nav {
+    margin: auto 0;
+}
