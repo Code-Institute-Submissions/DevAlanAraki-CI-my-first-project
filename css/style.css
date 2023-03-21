@@ -301,3 +301,8 @@ footer p a {
 .footer-nav {
     margin: auto 0;
 }
+
+.footer-nav a, .footer-media-nav a {
+    text-decoration: none;
+    color: #007bff;
+}
