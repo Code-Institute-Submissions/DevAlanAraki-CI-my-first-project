@@ -91,6 +91,7 @@ a.nav-link.btn-regular:hover {
     font-size: 1rem;
     line-height: 1.5rem;
     border-radius: .25rem;
+    text-decoration: none;
 }
 
 .btn-outline {
@@ -210,10 +211,11 @@ a.nav-link.btn-regular:hover {
     background-color: #007bff;
     border-color: #007bff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* BOX Sections */
-#box {
+.box {
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
 }
