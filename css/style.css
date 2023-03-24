@@ -140,7 +140,7 @@ a.nav-link.btn-regular:hover {
 
 #home-app .column-half {
     align-items: center;
-display: flex;
+    display: flex;
 }
 
 .column-left {
@@ -344,8 +344,7 @@ footer p a {
 }
 
 #aboutus .column-half,
-#benefits .column-half
- {
+#benefits .column-half {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -365,4 +364,72 @@ footer p a {
     margin-bottom: 25px;
 }
 
-/* BENEFITS */
+/* CONTACT US */
+
+.contact-us-image {
+    height: 339px;
+    float: right;
+    margin: 11.93rem 5rem 0rem 0rem;
+}
+
+.contact-text {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2.3rem;
+}
+
+.box-form {
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-us input[type="text"],
+#contact-us input[type="email"],
+#contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+#contact-us input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-us input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#contact-us input[type="submit"]:focus {
+    outline: none;
+}
+
+#contact-us input[type="submit"]:active {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CUSTOMIZE STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>FinanTech - Benefits</title>
+</head>
+
+<body>
+
+    <!-- Header of the website -->
+    <header class="header-bgcolor">
+        <div id="nav-access">
+            <nav>
+                <div>
+                    <a href="index.html">
+                        <img src="images/finantechwhite.png" id="logo" alt="Logo FinanTech" width="150">
+                    </a>
+                    <div>
+                        <ul id="menu" class="menu-direction">
+                            <li>
+                                <a href="index.html" class="nav-link btn-regular">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html" class="nav-link btn-regular">About us</a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="nav-link btn-regular">Benefits</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link btn-regular active">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    onclick="function noaccess(){alert('Oh no! :( You do not have access to the user dashboard!')};noaccess()"
+                                    class="btn btn-outline">Log in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- first section - Banner highlighted -->
+    <section id="home-outer">
+        <div class="container home-container">
+            <div class="column-left">
+                <h2 class="home-quote">Our ninja support will be available for you whenever you need their help.</h2>
+                <p>Whether you need help setting up your account, have a question about a feature, or just want to
+                    provide us with feedback, we'd love to hear from you!</p>
+            </div>
+
+            <div class="column-right">
+                <img src="images/contact-us-call-center.png" class="contact-us-image"
+                    alt="Illutration of a group of team members, helping each other with a puzzle">
+            </div>
+        </div>
+    </section>
+
+    <!-- second section - contact us form -->
+    <section id="contact-us">
+        <div class="contact-text">
+            <h2>Contact Us</h2>
+            <p>We're here to help you with any questions or concerns you may have about our services.</p>
+            <p>Please fill out the form below and we'll get back to you as soon as possible.</p>
+            <p>Thank you for choosing our finance app!</p>
+        </div>
+        <div class="box-form">
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Type your name here" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Type your email here" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="How can we help you today?" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Provide as much details you can."
+                    required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER START HERE -->
+    <footer>
+        <div class="container">
+            <div class="line footer-links">
+                <div class="footer-nav">
+                    <p>
+                        <a href="index.html" class="nav-link" target="_self">Home</a>
+                        <a href="about-us.html" class="nav-link" target="_self">About us</a>
+                        <a href="benefits.html" class="nav-link" target="_self">Benefits</a>
+                        <a href="contact.html" class="nav-link" target="_self">Contact</a>
+                        <a href="#"
+                            onclick="function noaccess(){alert('Oh no! :( You do not have access to the user dashboard!')};noaccess()"
+                            class="nav-link" target="_self">Login</a>
+                    </p>
+                </div>
+
+                <div class="footer-media-nav">
+                    <a href="http://facebook.com" class="btn" target="_blank">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+
+                    <a href="http://twitter.com" class="btn" target="_blank">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+
+                    <a href="http://instagram.com" class="btn" target="_blank">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+
+                    <a href="http://youtube.com" class="btn" target="_blank">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts - JavaScript-->
+    <script src="https://kit.fontawesome.com/309dad62dc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
