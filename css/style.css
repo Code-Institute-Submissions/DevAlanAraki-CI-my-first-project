@@ -122,6 +122,7 @@ h4 {
 #home-outer {
     width: 100%;
     min-height: 520px;
+    max-height: 603px;
     position: relative;
     color: #fff;
     background-color: #ffc107;
@@ -334,7 +335,7 @@ footer p a {
 .benefits-image {
     height: 339px;
     float: right;
-    margin: 13rem 5rem 0 0;
+    margin: 14.3rem 5rem 0 0;
 }
 
 .secondary-pages-container {
@@ -383,7 +384,7 @@ footer p a {
 .contact-us-image {
     height: 339px;
     float: right;
-    margin: 11.93rem 5rem 0 0;
+    margin: 12.95rem 5rem 0 0;
 }
 
 .contact-text {
@@ -524,7 +525,7 @@ footer p a {
 
 @media screen and (max-width: 990px) {
 
-    #logo-mobiles {
+    #logo {
         width: 26%;
     }
 
@@ -680,7 +681,7 @@ footer p a {
 
 @media screen and (max-width: 520px) {
 
-    #logo-mobiles {
+    #logo {
         margin: 18px 40px 0 10px;
         width: 36%;
     }
@@ -730,6 +731,12 @@ footer p a {
 }
 
 @media screen and (max-width: 440px) {
+
+    #logo {
+        width: 45%;
+        margin: 18px 40px 0 10px;
+    }
+
     #home-outer {
         min-height: 157px;
     }
@@ -774,7 +781,7 @@ footer p a {
 }
 
 @media only screen and (max-width: 360px) {
-    #logo-mobiles {
+    #logo {
         width: 45%;
         margin: 18px 40px 0 10px;
     }
@@ -786,8 +793,6 @@ footer p a {
     #home-outer img {
         display: none;
     }
-
-
 
     .footer-links {
         display: inline-block;
