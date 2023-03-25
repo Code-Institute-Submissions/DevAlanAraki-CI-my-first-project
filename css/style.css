@@ -507,8 +507,30 @@ footer p a {
 }
 
 @media screen and (max-width: 990px) {
+    #nav-access {
+        width: 100%;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+
     #menu .btn {
         padding: 0 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #menu li {
+        float: left;
+        list-style-type: none;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+
+    .header-bgcolor {
+        height: 6.2rem;
     }
 
     .line-resume-feature {
@@ -526,8 +548,17 @@ footer p a {
         height: 335px;
     }
 
+    #home-outer p {
+        margin-left: inherit;
+    }
+
+    #home-outer form {
+        display: none;
+    }
+
     .home-quote {
         font-size: 2rem;
+        margin-left: inherit;
     }
 
     .form-subscribe {
@@ -583,5 +614,26 @@ footer p a {
 
     .contact-us-image {
         max-height: 204px;
+    }
+
+    .box-space {
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
+    .box-content {
+        width: 97%;
+        margin-left: auto;
+    }
+
+    .img-graphic {
+        max-width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .img-card {
+        margin-bottom: 2rem;
     }
 }
