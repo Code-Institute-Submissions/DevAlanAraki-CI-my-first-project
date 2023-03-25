@@ -77,6 +77,10 @@ h4 {
     text-decoration: none;
 }
 
+#nav-access-burger {
+    display: none;
+}
+
 .nav-link {
     color: rgba(0, 0, 0, .5);
 }
@@ -279,14 +283,20 @@ h4 {
 /* SECTION SUPPORT FEATURE */
 
 .feature-col {
+    display: inline-block;
     max-width: 33.333333%;
-    width: 440px;
+    width: 390px;
     text-align: center;
     margin: 20px;
 }
 
 .feature-col p {
     width: 400px;
+}
+
+.line-resume-feature {
+    display: flex;
+    justify-content: center;
 }
 
 .img-support-feature {
@@ -432,10 +442,14 @@ footer p a {
     background-color: #3e8e41;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1275px) {
 
     #home-outer {
         height: 416px;
+    }
+
+    #nav-access-burger {
+        display: none;
     }
 
     .home-quote {
@@ -511,6 +525,10 @@ footer p a {
         width: 100%;
     }
 
+    #nav-access-burger {
+        display: none;
+    }
+
     #menu {
         font-size: 100%;
         letter-spacing: 1px;
@@ -534,14 +552,15 @@ footer p a {
     }
 
     .line-resume-feature {
-        display: flex;
-        justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
     .box {
         max-height: none;
+        justify-content: center;
+        display: flex;
+        padding: 70px 0;
     }
 
     #home-outer {
@@ -554,6 +573,10 @@ footer p a {
 
     #home-outer form {
         display: none;
+    }
+
+    #home-app .column-half {
+        justify-content: center;
     }
 
     .home-quote {
@@ -620,6 +643,7 @@ footer p a {
         display: flex;
         flex-direction: column;
         margin: 0 30px;
+        text-align: center;
     }
 
     .box-content {
@@ -644,5 +668,28 @@ footer p a {
 
     .feature-col p {
         width: inherit;
-      }
+    }
+}
+
+@media screen and (max-width: 551px) {
+    .box-space {
+        height: 617px;
+    }
+
+    #nav-access-burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    #logo {
+        width: 40%;
+    }
+    #home-outer img {
+        display: none;
+    }
+
+
+
 }
