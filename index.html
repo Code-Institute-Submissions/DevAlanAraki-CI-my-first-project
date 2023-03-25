@@ -46,6 +46,21 @@
                 </div>
             </nav>
         </div>
+
+        <div class="nav-access-hamburger">
+            <a href="index.html"><img src="images/finantechwhite.png" id="logo" alt="Logo FinanTech"
+                    width="150"></a>
+            <div id="menuBar">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="contact.html">Benefits</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </header>
 
     <!-- first section - Banner highlighted -->
@@ -192,6 +207,17 @@
 
     <!-- Scripts - JavaScript-->
     <script src="https://kit.fontawesome.com/309dad62dc.js" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menuBar");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } 
+    </script>
 </body>
 
 </html>

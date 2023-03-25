@@ -682,14 +682,74 @@ footer p a {
 }
 
 @media only screen and (max-width: 360px) {
-
     #logo {
-        width: 40%;
+        width: 35%;
+    }
+
+    #home-outer {
+        height: 195px;
     }
     #home-outer img {
         display: none;
     }
 
+    #nav-access {
+        display: none;
+    }
 
+    .nav-access-hamburger {
+        overflow: hidden;
+        position: relative;
+        z-index: 9999;
+    }
 
+    .nav-access-hamburger #menuBar {
+        display: none;
+    }
+
+    .nav-access-hamburger a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    #menuBar {
+        background-color: black;
+        margin-top: 19px;
+        opacity: 0.8;
+        text-align: end;
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .nav-access-hamburger a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .column-left {
+        flex-basis: inherit;
+    }
+
+    .home-container {
+        width: 98%;
+        text-align: center;
+    }
+
+    .column-right {
+        display: none;
+    }
+
+    .box {
+        padding: 10px 0;
+      }
+
+      .box-space {
+        height: auto;
+      }
 }
