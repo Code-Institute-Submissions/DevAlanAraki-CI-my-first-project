@@ -48,13 +48,14 @@
         </div>
 
         <div class="nav-access-hamburger">
-            <a href="index.html"><img src="images/finantechwhite.png" id="logo" alt="Logo FinanTech"
+            <a href="index.html"><img src="images/finantechwhite.png" id="logo-mobiles" alt="Logo FinanTech"
                     width="150"></a>
             <div id="menuBar">
                 <a href="index.html">Home</a>
                 <a href="about-us.html">About us</a>
                 <a href="contact.html">Benefits</a>
                 <a href="contact.html">Contact</a>
+                <a href="#" onclick="function noaccess(){alert('Oh no! :( You do not have access to the user dashboard!')};noaccess()">Login</a>
             </div>
 
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -128,7 +129,7 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box resume-feature">
             <div class="container">
                 <div class="line-resume-feature">
                     <div class="feature-col">
@@ -207,17 +208,7 @@
 
     <!-- Scripts - JavaScript-->
     <script src="https://kit.fontawesome.com/309dad62dc.js" crossorigin="anonymous"></script>
-    
-    <script>
-        function myFunction() {
-            var x = document.getElementById("menuBar");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        } 
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

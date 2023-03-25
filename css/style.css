@@ -11,6 +11,7 @@ html {
 body {
     font-family: "Segoe UI", "Noto Sans", sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 .container {
@@ -46,7 +47,8 @@ h4 {
     height: 4rem;
 }
 
-#logo {
+#logo,
+#logo-mobiles {
     float: left;
     margin: 18px 40px 0 50px;
     width: 15%;
@@ -58,7 +60,8 @@ h4 {
 }
 
 #menu,
-#logo {
+#logo,
+#logo-mobiles {
     line-height: 70px;
 }
 
@@ -118,7 +121,7 @@ h4 {
 
 #home-outer {
     width: 100%;
-    height: 520px;
+    min-height: 520px;
     position: relative;
     color: #fff;
     background-color: #ffc107;
@@ -139,7 +142,6 @@ h4 {
     width: auto;
     height: 520px;
     float: right;
-    margin: 0 10rem 0 0;
 }
 
 #home-app .column-half {
@@ -425,7 +427,7 @@ footer p a {
 }
 
 #contact-us input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -435,17 +437,18 @@ footer p a {
 }
 
 #contact-us input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #0264ce;
 }
 
 #contact-us input[type="submit"]:active {
-    background-color: #3e8e41;
+    background-color: #0264ce;
+}
 }
 
 @media screen and (max-width: 1275px) {
 
     #home-outer {
-        height: 416px;
+        min-height: 416px;
     }
 
     #nav-access-burger {
@@ -521,6 +524,11 @@ footer p a {
 }
 
 @media screen and (max-width: 990px) {
+
+    #logo-mobiles {
+        width: 26%;
+    }
+
     #nav-access {
         width: 100%;
     }
@@ -564,7 +572,7 @@ footer p a {
     }
 
     #home-outer {
-        height: 335px;
+        min-height: 335px;
     }
 
     #home-outer p {
@@ -671,26 +679,15 @@ footer p a {
     }
 }
 
-@media screen and (max-width: 551px) {
+@media screen and (max-width: 520px) {
+
+    #logo-mobiles {
+        margin: 18px 40px 0 10px;
+        width: 36%;
+    }
+
     .box-space {
         height: 617px;
-    }
-
-    #nav-access-burger {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    #logo {
-        width: 35%;
-    }
-
-    #home-outer {
-        height: 195px;
-    }
-    #home-outer img {
-        display: none;
     }
 
     #nav-access {
@@ -716,29 +713,39 @@ footer p a {
     }
 
     #menuBar {
-        background-color: black;
+        background-color: #007bff;
         margin-top: 19px;
-        opacity: 0.8;
+        opacity: 0.6;
         text-align: end;
         width: 60%;
         margin-left: 40%;
     }
 
     .nav-access-hamburger a.icon {
-        background: black;
+        background: #007bff;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
     }
+}
 
-    .column-left {
-        flex-basis: inherit;
+@media screen and (max-width: 440px) {
+    #home-outer {
+        min-height: 157px;
+    }
+
+    #home-outer img {
+        display: none;
     }
 
     .home-container {
         width: 98%;
         text-align: center;
+    }
+
+    .column-left {
+        flex-basis: inherit;
     }
 
     .column-right {
@@ -747,9 +754,65 @@ footer p a {
 
     .box {
         padding: 10px 0;
-      }
+    }
 
-      .box-space {
+    .box-space {
         height: auto;
-      }
+    }
+
+    .card-section {
+        top: 0;
+    }
+
+    .line-resume-feature {
+        margin-left: 10px;
+    }
+
+    .feature-col p {
+        width: 80%;
+        margin-left: 44px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #logo-mobiles {
+        width: 45%;
+        margin: 18px 40px 0 10px;
+    }
+
+    #home-outer {
+        min-height: 195px;
+    }
+
+    #home-outer img {
+        display: none;
+    }
+
+
+
+    .footer-links {
+        display: inline-block;
+        margin: 20px 20px;
+    }
+
+    .footer-nav p {
+        line-height: 35px;
+    }
+
+    #aboutus .column-half p {
+        padding: 0;
+    }
+
+    #aboutus h2 {
+        margin-top: 20px;
+    }
+
+    .video-about-us {
+        width: 290px;
+        height: 170px;
+    }
+
+    .home-quote {
+        font-size: 1.5rem;
+    }
 }
