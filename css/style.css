@@ -636,4 +636,13 @@ footer p a {
     .img-card {
         margin-bottom: 2rem;
     }
+
+    .feature-col {
+        max-width: none;
+        margin-left: auto;
+    }
+
+    .feature-col p {
+        width: inherit;
+      }
 }
