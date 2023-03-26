@@ -12,3 +12,15 @@ FinanTech is an online financial management tool used by over one million people
   - The navigation it is in a great style, clearly and easy to find.
 
 ![Navigation section](images/navigation.png)
+
+# The Header
+  - The heeader is yellow and highlight how the app can help to save money, and with a subscription form.
+![Header](images/header.png)
+
+# The sections
+  - The sections demonstrate what the user can achieve when is using the app.
+![Sections](images/sections.png)
+
+# The footer
+  - The footer is quite simple but provide all the necessary information to guide the user through the webpage and to go forward with the social media pages.
+![Footer](images/footer.png)
