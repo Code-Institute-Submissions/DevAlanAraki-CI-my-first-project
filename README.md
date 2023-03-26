@@ -55,6 +55,9 @@ FinanTech is an online financial management tool used by over one million people
   - The site was deployed to GitHub pages.
   - THe live like can be found here: https://devalanaraki.github.io/CI-my-first-project
 
+# Bugs resolved
+  - After the deployment was noticed that the menu was with some wrong links - FIXED.
+
 # Credits
   - The images used in the pages were taken from:
     - LOGO: https://portotechhub.com/finantech-is-now-a-new-member-of-porto-tech-hub-association/
