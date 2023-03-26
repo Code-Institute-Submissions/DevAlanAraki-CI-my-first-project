@@ -3,3 +3,4 @@ FinanTech is an online financial management tool used by over one million people
 
  The website features a user-friendly interface with simple graphics to help users better understand their financial situation. Additionally, users can subscribe to FinanTech by providing their email address on the website.
 
+![site responsive](https://github.com/DevAlanAraki/CI-my-first-project/blob/main/FinanTech-response.jpg?raw=true)
